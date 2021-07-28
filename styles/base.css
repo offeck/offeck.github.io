@@ -1,0 +1,25 @@
+em {
+    color: red;
+    font-style: normal;
+    font-size: larger;
+}
+
+img {
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.username {
+    font-weight: bold;
+}
+.menu {
+    text-align: center;
+    font-size: larger;
+}
+.tal {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+}
