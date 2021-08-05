@@ -1,5 +1,5 @@
 em {
-  color: red;
+  color: yellow;
   font-style: normal;
   font-size: larger;
 }
@@ -33,6 +33,10 @@ img {
 body {
   margin: 0;
   padding: 0;
+  background-position: 0px 246.35px;
+  background-size: cover;
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
 }
 .navbar {
   overflow: hidden;
@@ -61,4 +65,25 @@ body {
 /* Main content */
 .main {
   margin-top: 50.4px; /* Add a top margin to avoid content overlay */
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 58px;
+}
+.content {
+  background-color: rgba(255, 255, 255, 0.1);
+  background-blend-mode: lighten;
+  width: fit-content;
+  margin: auto auto;
+  border-radius: 10%;
+}
+p {
+  font-size: larger;
+  font-weight: 550;
+}
+.heading {
+  background-color: yellow;
+  min-height: 195.95px;
 }
