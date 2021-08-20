@@ -5,6 +5,12 @@
     },
     {
       "path": "..\\..\\Python"
+    },
+    {
+      "path": "..\\..\\React"
+    },
+    {
+      "path": "."
     }
   ],
   "settings": {}
