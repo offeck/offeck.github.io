@@ -6,7 +6,7 @@ em {
 
 img {
   /*width: 20%;*/
-  height: 50.4px;
+  height: 10vh;
   /*border-radius: 50%;*/
   float: left;
   vertical-align: middle;
@@ -33,7 +33,7 @@ img {
 body {
   margin: 0;
   padding: 0;
-  background-position: 0px 246.35px;
+  background-position: 0px 50vh;
   background-size: cover;
   background-image: url(../images/background.jpg);
   background-repeat: no-repeat;
@@ -44,15 +44,20 @@ body {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  height: 10vh;
+  font-size: large;
 }
 /* Links inside the navbar */
 .navbar a {
   float: right;
-  display: block;
+  display: flex;
   color: #f2f2f2;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 22%;
-  padding: 16px 0px;
+  /* padding: 16px 0px; */
+  height: 10vh;
   text-decoration: none;
 }
 
@@ -64,7 +69,7 @@ body {
 
 /* Main content */
 .main {
-  margin-top: 50.4px; /* Add a top margin to avoid content overlay */
+  margin-top: 10vh; /* Add a top margin to avoid content overlay */
   text-align: center;
 }
 
@@ -84,6 +89,17 @@ p {
   font-weight: 550;
 }
 .heading {
+  display: table-cell;
+  vertical-align: middle;
   background-color: yellow;
-  min-height: 195.95px;
+  width: 100vw;
+  vertical-align: middle;
+  text-align: center;
+  height: 40vh;
+}
+.subheading {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  margin: auto auto;
+  border-radius: 10%;
 }
